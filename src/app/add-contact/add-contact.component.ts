@@ -19,6 +19,7 @@ export class AddContactComponent implements OnInit{
         this.allGroups = data
       })
     }
-
+  
+  addContact(){}
 
 }
