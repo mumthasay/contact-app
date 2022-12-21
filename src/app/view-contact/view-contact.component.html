@@ -1,0 +1,43 @@
+<div class="container mt-4 title">
+  <div class="row">
+    <div class="col">
+      <h1><i class="fa-solid fa-eye"></i> &nbsp; View Contact Page</h1>
+      <p style="text-align: justify">
+        This is dummy data: Lorem ipsum, dolor sit amet consectetur adipisicing
+        elit. Magni eum nulla a, optio esse perferendis porro cum sed vel ipsa
+        fugiat temporibus sunt quibusdam ea minus iure odit quo blanditiis?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo suscipit
+        sapiente quas rerum odio vitae amet perspiciatis hic sed veritatis, odit
+        reprehenderit! Eos veritatis deserunt vitae distinctio suscipit vero
+        inventore.
+      </p>
+    </div>
+  </div>
+
+  <!-- <pre>
+    {{contact | json}}
+  </pre> -->
+
+  <!-- view contact details -->
+  <div class="container mt-4 mb-5">
+    <div class="row border p-5 align-items-center">
+        <div class="col-md-4">
+            <!-- contact image -->
+            <img style="width: 200px;" [src]="contact.photo" alt="no-image" class="contact-image">
+            <br>
+            <a routerLink="/" class="btn btn-warning ms-5 mt-3"><i class="fa-solid fa-circle-left"></i>&nbsp;Go Back</a>
+        </div>
+        <div class="col-md-8">
+            <!-- contact detail -->
+            <ul class="list-group">
+                <li class="list-group-item">Name: <b>{{contact.name}}</b></li>
+                <li class="list-group-item">E-mail: <b>{{contact.email}}</b></li>
+                <li class="list-group-item">Mobile: <b>{{contact.mobile}}</b></li>
+                <li class="list-group-item">Company: <b>{{contact.company}}</b></li>
+                <li class="list-group-item">Title: <b>{{contact.title}}</b></li>
+                <li class="list-group-item">Group: <b>{{groupName}}</b></li>
+              </ul>
+        </div>
+    </div>
+  </div>
+</div>

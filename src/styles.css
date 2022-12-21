@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Solway&display=swap');
+
+body{
+    font-family: 'Solway', serif;
+}
+
+.contact-image{
+    width: 120px;
+    border-radius: 50%;
+}
