@@ -2,13 +2,13 @@
   "contacts": [
     {
       "id": "ca1",
-      "name": "Leanne Graham",
+      "name": "Leanne Graham Bailey",
       "email": "Sincere@april.biz",
       "photo": "https://tse2.mm.bing.net/th?id=OIP.8srvO2PtBJk8dCezMndAtAHaJx&pid=Api&P=0",
       "mobile": "9876543210",
       "company": "Romaguera-Crona",
       "title": "Developer",
-      "groupId": "1"
+      "groupId": "group.id"
     },
     {
       "id": "ca2",
@@ -27,7 +27,7 @@
       "photo": "https://tse4.mm.bing.net/th?id=OIP.bnMZqZBnjB_bx2yrH54X-QHaLI&pid=Api&P=0",
       "mobile": "9876543210",
       "company": "Romaguera-Jacobson",
-      "title": "Tester",
+      "title": "Developer",
       "groupId": "3"
     },
     {
